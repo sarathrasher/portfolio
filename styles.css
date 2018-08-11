@@ -84,6 +84,10 @@ body {
 }
 
 @media (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
     .bio {
         width: 45%;
         padding: 3em 2em 3em 2em;
