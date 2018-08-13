@@ -126,9 +126,12 @@ body {
 
 .sticky {
     position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     position: sticky;
     top: 0;
-}
+} 
 
 .demo-link {
     color: black;
@@ -137,6 +140,15 @@ body {
 
 .demo-link:hover {
     color: #ff3355;
+}
+
+.bio-footer {
+    background-color: #ff3355;
+    color: white;
+}
+
+.footer-language:hover {
+    color: #ffdd33;
 }
 
 @media (min-width: 768px) {
@@ -159,6 +171,24 @@ body {
         overflow-y: auto;
         height: 20em;
     }
+    .bio-footer {
+        width: 45%;
+        padding: 3em 2em 3em 2em;
+    }
+    .contact {
+        width: 50%;
+    }
+}
+
+.bio-footer {
+    background-color: #ff3355;
+    color: white;
+    width: 100%;
+    padding: 2em 0em 2em 0em;
+}
+
+.footer-language:hover {
+    color: #ffdd33;
 }
 
 @media (min-width: 900px) {
