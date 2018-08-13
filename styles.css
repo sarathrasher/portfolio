@@ -17,7 +17,15 @@ body {
     font-weight: normal;
     word-spacing: 0.15em;
 }
- 
+.blue-letter:hover {
+    color: #3355ff;
+}
+.yellow-letter:hover {
+    color: #ffdd33;
+}
+.red-letter:hover {
+    color: #ff3355;
+}
 .pts-rect { 
     font-size: 25vw; 
     letter-spacing: -0.1em;
