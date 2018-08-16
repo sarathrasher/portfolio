@@ -19,7 +19,7 @@ var styleHeader = function () {
         let rect2 = Rectangle.fromTopLeft( [pointer.x, 0], space.size );
 
         // Draw first rectangle(s)
-        form.strokeOnly("#3355ff", 1).fillText("#ffdd33").cls("rect1").rect( rect1 );
+        form.strokeOnly("#3355ff", 1).fillText("#FFFF2F").cls("rect1").rect( rect1 );
         form.strokeOnly("#3355ff", 1).fillText("#fff").cls("rect1a").rect( rect1Alt );
         document.querySelector(".rect1").textContent = "sara";
         document.querySelector(".rect1a").textContent = "sara";

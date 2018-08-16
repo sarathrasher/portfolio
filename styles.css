@@ -1,3 +1,9 @@
+:root {
+    --yellow-color: #FFFF2F;
+    --red-color:#ff3355;
+    --blue-color: #3355ff;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -21,10 +27,14 @@ body {
     color: #3355ff;
 }
 .yellow-letter:hover {
-    color: #ffdd33;
+    color: #FFFF2F;
 }
 .red-letter:hover {
     color: #ff3355;
+}
+
+.yellow {
+    background-color: #FFFF2F;
 }
 .pts-rect { 
     font-size: 25vw; 
@@ -53,43 +63,46 @@ body {
     flex-direction: column;
 }
 .bio {
-    width: 100%;
-    background-color: #ffdd33;
+    color: black;
+    border: 30px solid #ff3355;
     padding: 2em 0em 2em 0em;
 }
+
+.language {
+    color: black;
+}
 .language:hover {
-    color: #ff3355;
+    color: #3355ff;
     font-weight: bold;
 }
 .tagline {
     width: 100%;
 }
 .title {
-    font-size: 4.75em;
+    font-size: 4.1em;
     padding: 0.15em 0.25em 0.15em 0em;
     margin: 0;
     text-align: center;
 
 }
 .contact {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    background-color: #3355ff;
-    color: white;
+    border: 30px solid #3355ff;
+    color: black;
     padding: 2em 0em 2em 0em;
 }
 .link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .link:visited {
-    color: white;
+    color: black;
 }
 .link:hover {
-    color: #ffdd33;
+    color: #FFFF2F;
     font-weight: bold;
 }
 .pointer {
@@ -110,9 +123,10 @@ body {
 
 .projects {
     display: flex;
-    width: 100%;
     flex-direction: column;
-    background-color: #ffdd33;
+    /* background-color: rgba(255, 255, 47, 0.15); */
+    border: 30px solid #3355ff;
+    color: black;
 }
 
 .project-subheader {
@@ -142,21 +156,52 @@ body {
 } 
 
 .demo-link {
-    color: black;
-    text-decoration: none;
+    color: white;
 }
 
 .demo-link:hover {
     color: #ff3355;
 }
 
-.bio-footer {
-    background-color: #ff3355;
-    color: white;
+.footer {
+    font-size: 1.5em;
+    color: black;
 }
 
+.logo {
+    width: 32px;
+    height: 32px;
+}
+.logo:hover {
+    width: 34px;
+    height: 34px;
+}
+
+.contact-footer {
+    display: flex;
+    font-size: 0.5em;
+    justify-content: space-between;
+    margin: 0 1em 0 1em;
+    padding-bottom: 0.5em;
+    align-items: center;
+}
+
+.bio-footer {
+    background-color: #ff3355;
+    color: black;
+}
+
+
+
 .footer-language:hover {
-    color: #ffdd33;
+    color: #FFFF2F;
+}
+
+.footer-link {
+    color: black;
+}
+.footer-link:hover {
+    color: #3355ff;
 }
 
 @media (min-width: 768px) {
@@ -196,7 +241,7 @@ body {
 }
 
 .footer-language:hover {
-    color: #ffdd33;
+    color: #FFFF2F;
 }
 
 @media (min-width: 900px) {
