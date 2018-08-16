@@ -121,6 +121,10 @@ body {
     color: #3355ff;
 }
 
+.projects-header {
+    border: 30px solid var(--yellow-color);
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -186,22 +190,19 @@ body {
     align-items: center;
 }
 
-.bio-footer {
-    background-color: #ff3355;
-    color: black;
+.footer {
+    background-color: var(--blue-color);
 }
 
-
-
 .footer-language:hover {
-    color: #FFFF2F;
+    color: var(--yellow-color);
 }
 
 .footer-link {
     color: black;
 }
 .footer-link:hover {
-    color: #3355ff;
+    color: var(--yellow-color);
 }
 
 @media (min-width: 768px) {
