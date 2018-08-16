@@ -144,15 +144,17 @@ body {
     color: #3355ff;
 }
 
-.projects-header {
+.projects {
     border: 30px solid var(--yellow-color);
 }
 
-.projects {
+.project-title {
+    font-size: 3.5em;
+}
+.tonely-project {
     display: flex;
     flex-direction: column;
-    /* background-color: rgba(255, 255, 47, 0.15); */
-    border: 30px solid #3355ff;
+    border: 10px solid #3355ff;
     color: black;
 }
 
