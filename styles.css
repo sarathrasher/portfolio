@@ -164,6 +164,8 @@ body {
     flex-direction: column;
     border: 10px solid #3355ff;
     color: black;
+    margin: 1em 2em 1em 2em;
+
 }
 
 .project-subheader {
@@ -254,11 +256,13 @@ body {
     }
     .project-content {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+    .tonely-project {
+        margin: 1em 10em 1em 10em;
     }
     .explanation-text {
         overflow-y: auto;
-        height: 20em;
     }
     .bio-footer {
         width: 45%;
@@ -279,14 +283,3 @@ body {
 .footer-language:hover {
     color: #FFFF2F;
 }
-
-@media (min-width: 900px) {
-    .explanation-text {
-        height: 23em;
-    }
-}
-
-@media (min-width: 1200px) {
-    .explanation-text{
-        height: 28em;
-    }
