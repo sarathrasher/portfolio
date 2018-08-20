@@ -279,7 +279,9 @@ body {
     width: 100%;
     padding: 2em 0em 2em 0em;
 }
-
+.tonely-project {
+    margin: 1em 15em 1em 15em;
+}
 .footer-language:hover {
     color: #FFFF2F;
 }
