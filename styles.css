@@ -145,7 +145,15 @@ body {
 }
 
 .projects {
+    border: 30px solid var(--red-color);
+}
+
+.skills {
     border: 30px solid var(--yellow-color);
+}
+
+.skills-paragraph {
+    text-align: center;
 }
 
 .project-title {
