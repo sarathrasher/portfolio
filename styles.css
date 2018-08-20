@@ -98,9 +98,6 @@ body {
     color: #3355ff;
     font-weight: bold;
 }
-.tagline {
-    width: 100%;
-}
 .title {
     font-size: 4.1em;
     padding: 0.15em 0.25em 0.15em 0em;
@@ -155,7 +152,9 @@ body {
 .skills-paragraph {
     text-align: center;
 }
-
+.paragraph {
+    padding: 0.35em;
+}
 .project-title {
     font-size: 3.5em;
 }
@@ -241,6 +240,16 @@ body {
 .footer-link:hover {
     color: var(--yellow-color);
 }
+.bio-footer {
+    background-color: #ff3355;
+    color: white;
+    width: 100%;
+    padding: 2em 0em 2em 0em;
+}
+
+.footer-language:hover {
+    color: #FFFF2F;
+}
 
 @media (min-width: 768px) {
     .header {
@@ -272,16 +281,9 @@ body {
         width: 50%;
     }
 }
+@media (min-width: 1024) {
+    .tonely-project {
+        margin: 1em 15em 1em 15em;
+    }
+}
 
-.bio-footer {
-    background-color: #ff3355;
-    color: white;
-    width: 100%;
-    padding: 2em 0em 2em 0em;
-}
-.tonely-project {
-    margin: 1em 15em 1em 15em;
-}
-.footer-language:hover {
-    color: #FFFF2F;
-}
