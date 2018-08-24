@@ -6,6 +6,7 @@
     <title>SARA MUNTEAN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="media/bell-icon.png" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
    
@@ -18,7 +19,7 @@
     <div class="header">
         <div class="bio">
             <h1 class="overlapped title"><span class="blue-letter">S</span><span class="blue-letter">A</span><span class="blue-letter">R</span><span class="blue-letter">A</span> <span class="blue-letter">M</span><span class="blue-letter">U</span><span class="blue-letter">N</span><span class="blue-letter">T</span><span class="blue-letter">E</span><span class="blue-letter">A</span><span class="blue-letter">N</span></h1>
-            <p class="tagline paragraph">Former scientist who traded in her chemistry set for a solid state hard drive. Crafty by nature with an eye for meticulous design, my passion is coming up with creative solutions to tough problems.</p>
+            <p class="tagline paragraph">Former scientist who traded in her chemistry set for a solid state hard drive. Crafty by nature with an eye for meticulous design, my passion is coming up with creative solutions to tough problems, be it with a sewing machine or a keyboard.</p>
         </div>  
         <div class="contact">
             <h1 class="overlapped title"><span class="yellow-letter">C</span><span class="yellow-letter">O</span><span class="yellow-letter">N</span><span class="yellow-letter">T</span><span class="yellow-letter">A</span><span class="yellow-letter">C</span><span class="yellow-letter">T</span></h1>
@@ -39,11 +40,53 @@
     </div>
     <div class="skills">
         <h1 class="overlapped title"><span class="blue-letter">S</span><span class="blue-letter">K</span><span class="blue-letter">I</span><span class="blue-letter">L</span><span class="blue-letter">L</span><span class="blue-letter">S</span></h1>
-        <h6 class="overlapped project-subheader">LEARNED</h6>
-        <p class="skills-paragraph paragraph"><span class="language">HTML, </span><span class="language">CSS, </span><span class="language">Flexbox, </span><span class="language">JavaScript, </span>
-        <span class="language">jQuery, </span>and <span class="language">Python.</span></p>
-        <h6 class="overlapped project-subheader">LEARNING</h6>
-        <p class="skills-paragraph"><span class="language">Node.js, </span><span class="language">SCSS, </span>and <span class="language">Sass.</span></p>
+        <h6 class="overlapped project-subheader"><span class="blue-letter-no-outline">L</span><span class="blue-letter-no-outline">E</span><span class="blue-letter-no-outline">A</span><span class="blue-letter-no-outline">R</span><span class="blue-letter-no-outline">N</span><span class="blue-letter-no-outline">E</span><span class="blue-letter-no-outline">D</span></h6>
+        <div class="skills-paragraph paragraph">
+            <div class="language">
+                <i class="icon devicon-html5-plain"></i>
+                <p class="language">HTML</p>
+            </div>
+            <div class="language">
+                <i class="icon devicon-css3-plain"></i>
+                <p class="language">CSS</p>
+            </div>
+            <div class="language">
+                <i class="icon devicon-javascript-plain"></i>
+                <p class="language">JavaScript</p>
+            </div>
+            <div class="language">
+                <i class="icon devicon-jquery-plain"></i>
+                <p class="language">jQuery</p> 
+
+            </div>
+            <div class="language">
+                <i class="icon devicon-python-plain"></i>
+                <p class="language">Python</p>
+            </div>
+        </div>
+        <div class="language-no-icon">
+            <p class="language">Flexbox</p>
+            <p class="language">REST APIs</p>
+            <p class="language">Git</p>
+        </div>
+        <h6 class="overlapped project-subheader"><span class="blue-letter-no-outline">L</span><span class="blue-letter-no-outline">E</span><span class="blue-letter-no-outline">A</span><span class="blue-letter-no-outline">R</span><span class="blue-letter-no-outline">N</span><span class="blue-letter-no-outline">I</span><span class="blue-letter-no-outline">N</span><span class="blue-letter-no-outline">G</span></h6>
+        <div class="skills-paragraph">
+            <div class="language">
+                <i class="icon devicon-nodejs-plain-wordmark"></i>
+                <p class="language">Node.js</p>
+            </div>
+            <div class="language">
+                <i class="icon devicon-express-original"></i>
+                <p class="language">Express.js</p>
+            </div>
+            <div class="language">
+                <i class="icon devicon-postgresql-plain"></i>
+                <p class="language">PostgreSQL</p>
+            </div>
+        </div>
+        <div class="language-no-icon">
+            <p class="language">SCSS</p>
+        </div>
     </div>
     <div class="projects">
         <div class="projects-header">
@@ -53,59 +96,60 @@
             <h3 class="project-title overlapped title black"><span class="red-letter">T</span><span class="red-letter">O</span><span class="red-letter">N</span><span class="red-letter">E</span><span class="red-letter">L</span><span class="red-letter">Y</span></h3>
             <div class="project-content">
                 <div class="demo sticky">
-                    <div class="demo-content">
-                        <video width="100%" height="20%" controls autoplay loop src="media/tonely-demo.mov">
+                    <!-- <div class="demo-content">
+                        <video width="100%" height="20%" controls loop src="media/tonely-demo.mov">
                             <source src="media/tonely-demo.mov" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="explanation">
                     <div class="explanation-text">
-                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/achoi2/Tweet-Sentiment-Analysis target="_blank"">TONELY</a> is a web application designed to analyze tone percentages of draft tweets so that companies can establish a consistent tone amongst all customer service representatives. It also provides an approval service so that tweets may not be submitted to Twitter unless they have been approved by a second member of the team.</p>
+                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/achoi2/Tweet-Sentiment-Analysis target="_blank"">Github Repo</a> </p>
+                        <p class="tonely-paragraph">TONELY is a web application designed to analyze tone percentages of draft tweets so that companies can establish a consistent tone amongst all customer service representatives. It also provides an approval service so that tweets may not be submitted to Twitter unless they have been approved by a second member of the team.</p>
                         <p class="tonely-paragraph paragraph">I was personally tasked with obtaining the Watson API data, modal functionality, and all of the CSS styling.</p>
-                        <h6 class="overlapped project-subheader">STYLING</h6><p class="tonely-paragraph paragraph">One of the biggest challenges facing the styling was creating harmonious tones while also maintaining contrast. To do that, the majority of the colors are varying opacities of the same tone. This creates cohesion while also adding dimension to each layer of the site.</p>
-                        <h6 class="overlapped project-subheader">MODAL FUNCTIONALITY</h6><p class="tonely-paragraph paragraph">The most difficult function of the modal was the copy function. In order to automatically copy something from a page via a button, you must copy from an input box. This did not fit the styling or spacing of our modal, and for security reasons Google Chrome does not let you copy a hidden item. To work around this, the copy function first creates the input box, populates it and copies that text, and then destroys the input box. This happens so quickly that it is essentially invisible to the end user.</p>
+                        <h6 class="overlapped project-subheader"><span class="red-letter-no-outline">S</span><span class="red-letter-no-outline">T</span><span class="red-letter-no-outline">Y</span><span class="red-letter-no-outline">L</span><span class="red-letter-no-outline">I</span><span class="red-letter-no-outline">N</span><span class="red-letter-no-outline">G</span></h6><p class="tonely-paragraph paragraph">One of the biggest challenges facing the styling was creating harmonious tones while also maintaining contrast. To do that, the majority of the colors are varying opacities of the same tone. This creates cohesion while also adding dimension to each layer of the site.</p>
+                        <h6 class="overlapped project-subheader"><span class="red-letter-no-outline">M</span><span class="red-letter-no-outline">O</span><span class="red-letter-no-outline">D</span><span class="red-letter-no-outline">A</span><span class="red-letter-no-outline">L</span> <span class="red-letter-no-outline">F</span><span class="red-letter-no-outline">U</span><span class="red-letter-no-outline">N</span><span class="red-letter-no-outline">C</span><span class="red-letter-no-outline">T</span><span class="red-letter-no-outline">I</span><span class="red-letter-no-outline">O</span><span class="red-letter-no-outline">N</span><span class="red-letter-no-outline">A</span><span class="red-letter-no-outline">L</span><span class="red-letter-no-outline">A</span><span class="red-letter-no-outline">L</span><span class="red-letter-no-outline">I</span><span class="red-letter-no-outline">T</span><span class="red-letter-no-outline">Y</span></h6><p class="tonely-paragraph paragraph">The most difficult function of the modal was the copy function. In order to automatically copy something from a page via a button, you must copy from an input box. This did not fit the styling or spacing of our modal, and for security reasons Google Chrome does not let you copy a hidden item. To work around this, the copy function first creates the input box, populates it and copies that text, and then destroys the input box. This happens so quickly that it is essentially invisible to the end user.</p>
                     </div>
                 </div>
                 
             </div>
         </div>
         <div class="mailchimp-project project">
-            <h3 class="project-title overlapped title black"><span class="blue-letter">M</span><span class="blue-letter">A</span><span class="blue-letter">I</span><span class="blue-letter">L</span><span class="blue-letter">C</span><span class="blue-letter">H</span><span class="blue-letter">I</span><span class="blue-letter">M</span><span class="blue-letter">P</span> <span class="blue-letter">B</span><span class="blue-letter">A</span><span class="blue-letter">N</span><span class="blue-letter">A</span><span class="blue-letter">N</span><span class="blue-letter">A</span><span class="blue-letter">-</span><span class="blue-letter">Z</span><span class="blue-letter">A</span></h3>
+            <h3 class="project-title overlapped title black"><span class="blue-letter">M</span><span class="blue-letter">A</span><span class="blue-letter">I</span><span class="blue-letter">L</span><span class="blue-letter">C</span><span class="blue-letter">H</span><span class="blue-letter">I</span><span class="blue-letter">M</span><span class="blue-letter">P</span> <span class="blue-letter">B</span><span class="blue-letter">A</span><span class="blue-letter">N</span><span class="blue-letter">A</span><span class="blue-letter">N</span><span class="blue-letter">A</span> <span class="blue-letter">-</span> <span class="blue-letter">Z</span><span class="blue-letter">A</span></h3>
             <div class="project-content">
                 <div class="demo sticky">
-                    <div class="demo-content">
-                        <video width="100%" height="20%" controls autoplay loop src="media/tonely-demo.mov">
-                            <source src="media/tonely-demo.mov" type="video/mp4">
+                    <!-- <div class="demo-content">
+                        <video width="100%" height="20%" controls loop src="media/mailchimp-demo.mov">
+                            <source src="media/mailchimp-demo.mov" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="explanation">
                     <div class="explanation-text">
-                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/achoi2/Tweet-Sentiment-Analysis target="_blank"">MailChimp Banana-za</a> </p>
-                        <p class="tonely-paragraph paragraph"></p>
-                        <h6 class="overlapped project-subheader">STYLING</h6><p class="tonely-paragraph paragraph"></p>
-                        <h6 class="overlapped project-subheader">MODAL FUNCTIONALITY</h6><p class="tonely-paragraph paragraph"></p>
+                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/smuntean/insult-generator target="_blank"">Github Repo</a><a class="demo-link" href="https://smuntean.github.io/insult-generator/ target="_blank"">Live Demo</a></p>
+                        <p class="tonely-paragraph paragraph">MailChimp Banana-za</p>
+                        <h6 class="overlapped project-subheader"><span class="blue-letter-no-outline">S</span><span class="blue-letter-no-outline">T</span><span class="blue-letter-no-outline">Y</span><span class="blue-letter-no-outline">L</span><span class="blue-letter-no-outline">I</span><span class="blue-letter-no-outline">N</span><span class="blue-letter-no-outline">G</span></h6><p class="tonely-paragraph paragraph"></p>
+                        <h6 class="overlapped project-subheader"><span class="blue-letter-no-outline">A</span><span class="blue-letter-no-outline">N</span><span class="blue-letter-no-outline">I</span><span class="blue-letter-no-outline">M</span><span class="blue-letter-no-outline">A</span><span class="blue-letter-no-outline">T</span><span class="blue-letter-no-outline">I</span><span class="blue-letter-no-outline">O</span><span class="blue-letter-no-outline">N</span></h6><p class="tonely-paragraph paragraph"></p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="photo-gallery-project project">
-            <h3 class="project-title overlapped title black"><span class="red-letter">C</span><span class="red-letter">R</span><span class="red-letter">A</span><span class="red-letter">F</span><span class="red-letter">T</span><span class="red-letter">Y</span><span class="red-letter">-</span><span class="red-letter">G</span><span class="red-letter">R</span><span class="red-letter">A</span><span class="red-letter">M</span></h3>
+            <h3 class="project-title overlapped title black"><span class="red-letter">C</span><span class="red-letter">R</span><span class="red-letter">A</span><span class="red-letter">F</span><span class="red-letter">T</span><span class="red-letter">Y</span> <span class="red-letter">-</span> <span class="red-letter">G</span><span class="red-letter">R</span><span class="red-letter">A</span><span class="red-letter">M</span></h3>
             <div class="project-content">
                 <div class="demo sticky">
                     <div class="demo-content">
-                        <video width="100%" height="20%" controls autoplay loop src="media/tonely-demo.mov">
-                            <source src="media/tonely-demo.mov" type="video/mp4">
-                        </video>
+                        <!-- <video width="100%" height="20%" controls loop src="media/crafty-gram-demo.mov">
+                            <source src="media/crafty-gram-demo.mov" type="video/mp4">
+                        </video> -->
                     </div>
                 </div>
                 <div class="explanation">
                     <div class="explanation-text">
-                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/achoi2/Tweet-Sentiment-Analysis target="_blank"">Crafty-Gram</a> </p>
-                        <p class="tonely-paragraph paragraph"></p>
-                        <h6 class="overlapped project-subheader">STYLING</h6><p class="tonely-paragraph paragraph"></p>
-                        <h6 class="overlapped project-subheader">MODAL FUNCTIONALITY</h6><p class="tonely-paragraph paragraph"></p>
+                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/smuntean/photo-gallery target="_blank"">Github Repo</a><a class="demo-link" href="https://smuntean.github.io/photo-gallery/ target="_blank"">Live Demo</a></p>
+                        <p class="tonely-paragraph paragraph">Crafty-Gram</p>
+                        <h6 class="overlapped project-subheader"><span class="red-letter-no-outline">S</span><span class="red-letter-no-outline">T</span><span class="red-letter-no-outline">Y</span><span class="red-letter-no-outline">L</span><span class="red-letter-no-outline">I</span><span class="red-letter-no-outline">N</span><span class="red-letter-no-outline">G</span></h6><p class="tonely-paragraph paragraph"></p>
+                        <h6 class="overlapped project-subheader"><span class="red-letter-no-outline">M</span><span class="red-letter-no-outline">O</span><span class="red-letter-no-outline">D</span><span class="red-letter-no-outline">A</span><span class="red-letter-no-outline">L</span> <span class="red-letter-no-outline">F</span><span class="red-letter-no-outline">U</span><span class="red-letter-no-outline">N</span><span class="red-letter-no-outline">C</span><span class="red-letter-no-outline">T</span><span class="red-letter-no-outline">I</span><span class="red-letter-no-outline">O</span><span class="red-letter-no-outline">N</span><span class="red-letter-no-outline">A</span><span class="red-letter-no-outline">L</span><span class="red-letter-no-outline">A</span><span class="red-letter-no-outline">L</span><span class="red-letter-no-outline">I</span><span class="red-letter-no-outline">T</span><span class="red-letter-no-outline">Y</span></h6><p class="tonely-paragraph paragraph"></p>
                     </div>
                 </div>
             </div>
