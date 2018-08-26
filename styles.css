@@ -95,7 +95,7 @@ body {
     text-align: center;
 }
 .language {
-    font-size: 1.1em;
+    font-size: 0.8em;
     color: black;
     display: flex;
     flex-direction: column;
@@ -306,6 +306,10 @@ body {
     }
     .contact {
         width: 50%;
+    }
+
+    .language {
+        font-size: 1.1em;
     }
     .project-content {
         display: flex;
