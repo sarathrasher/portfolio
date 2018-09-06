@@ -97,16 +97,6 @@ body {
 .language {
     font-size: 0.8em;
     color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.language-no-icon {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .blue-letter-no-outline:hover {
@@ -165,20 +155,43 @@ body {
 }
 
 .projects {
-    border: 30px solid var(--red-color);
-}
-
-.skills {
     border: 30px solid var(--yellow-color);
 }
 
+.skills {
+    border: 30px solid var(--red-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skills-box {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.learned {
+    border: 10px solid var(--blue-color);
+}
+
+.learning {
+    border: 10px solid var(--blue-color);
+}
+
 .skills-paragraph {
+    text-align: center;
+    padding: 1em;
+}
+
+.skills-row {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-direction: row;
 }
+
 .paragraph {
     padding: 0.35em;
     text-align: center;
@@ -205,8 +218,20 @@ body {
 
 }
 
+.color-addiction-project {
+    border: 20px solid var(--red-color);
+}
+
+.chattrbox-project {
+    border: 20px solid var(--red-color);
+}
+
 .mailchimp-project {
-    border: 20px solid var(--yellow-color);
+    border: 20px solid var(--blue-color);
+}
+
+.crafty-project {
+    border: 20px solid var(--red-color);
 }
 
 .project-subheader {
