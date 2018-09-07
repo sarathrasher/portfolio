@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SARA MUNTEAN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="media/bell-icon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+    <script src="https://unpkg.com/interactjs@1.3/dist/interact.min.js"></script>
+    <!-- <script src="https://unpkg.com/pts@0.5.1/dist/pts.js"></script>
+    <script src="app.js"></script>  -->
+    <h1 class="header-text">sara muntean</h1>
+    <div class="no-color header">
+        <div class="no-color bio">
+            <h1 class="overlapped title"><span class="">S</span><span class="">A</span><span class="">R</span><span class="">A</span> <span class="">M</span><span class="">U</span><span class="">N</span><span class="">T</span><span class="">E</span><span class="">A</span><span class="">N</span></h1>
+            <p class="tagline paragraph">Former scientist who traded in her chemistry set for a solid state hard drive. Crafty by nature with an eye for meticulous design, my passion is coming up with creative solutions to tough problems, be it with a sewing machine or a keyboard.</p>
+        </div>  
+        <div class="no-color contact">
+            <h1 class="overlapped title"><span class="">C</span><span class="">O</span><span class="">N</span><span class="">T</span><span class="">A</span><span class="">C</span><span class="">T</span></h1>
+            <div class="phone link">
+                (404)-345-4284
+            </div>
+            <div class="email">
+                <a class="link" href="mailto:munteansr@gmail.com" target="_blank">munteansr@gmail.com</a>
+            </div>
+            <div class="github">
+                <a class="link" href="https://github.com/smuntean" target="_blank">GitHub</a>
+            </div>
+            <div class="linkedin">
+                <a class="link" href="https://www.linkedin.com/in/sara-muntean/" target="_blank">LinkedIn</a>
+            </div>  
+            <div class="resume"><a class="link" href="media/SaraMuntean_Resume.pdf" target="blank">Resume</a></div>
+        </div>
+    </div>
+    
+    <div class="no-color projects">
+        <div class="projects-header">
+            <h1 class="overlapped title"><span class="">P</span><span class="">R</span><span class="">O</span><span class="">J</span><span class="">E</span><span class="">C</span><span class="">T</span><span class="">S</span></h1>
+        </div>
+        <div class="no-color color-addiction-project project">
+            <h3 class="project-title overlapped title black"><span class="">C</span><span class="">O</span><span class="">L</span><span class="">O</span><span class="">R</span> <span class="">A</span><span class="">D</span><span class="">D</span><span class="">I</span><span class="">C</span><span class="">T</span> <span class="">I</span><span class="">O</span><span class="">N</span></h3>
+            <div class="project-content">
+                <div class="demo sticky">
+                    <div class="demo-content">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/sJOciF8dTP4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="explanation">
+                    <div class="explanation-text">
+                        <p class="color-addiction-paragraph paragraph"><a class="-no-outline" href="https://github.com/smuntean/hue-addiction" target="_blank">Github Repo</a> </p>
+                        <p class="color-addiction-paragraph paragraph"><a class="-no-outline" href="http://ec2-18-191-148-7.us-east-2.compute.amazonaws.com/?" target="_blank">Live Demo</a><a class="-no-outline" href="https://trello.com/b/Ktjz0atK/color-addiction" target="_blank">Trello Board</a> </p>
+                        <p class="color-addiction-paragraph paragraph ">COLOR ADDICTION is a JavaScript game built for artists and designers who want to test their color blending skills in a fast-paced, fun, virtual environment. It was built with a team of two other developers using Agile methodology. </p>
+                        <p class="color-addiction-paragraph paragraph">I was personally tasked with adding authorization functionality, building the level database, and populating the statistics page with data from the database.</p>
+                        <h6 class="overlapped project-subheader"><span class="-no-outline">A</span><span class="-no-outline">U</span><span class="-no-outline">T</span><span class="-no-outline">H</span><span class="-no-outline">O</span><span class="-no-outline">R</span><span class="-no-outline">I</span><span class="-no-outline">Z</span><span class="-no-outline">A</span><span class="-no-outline">T</span><span class="-no-outline">I</span><span class="-no-outline">O</span><span class="-no-outline">N</span></h6><p class="color-addiction-paragraph paragraph">Authorization was one of the trickiest parts of this project. We wanted to ensure that only people who had signed in could see the gameplay and stats information. To do that, I used two express routers, one for public use which gave access to the login functionality, and one for authorized users, which made requests to receive the gameplay data and the statistics data. We also included JSON Web Tokens to ensure that users did not need to sign in multiple times in the same day. </p>
+                        <h6 class="overlapped project-subheader"><span class="-no-outline">D</span><span class="-no-outline">A</span><span class="-no-outline">T</span><span class="-no-outline">A</span><span class="-no-outline">B</span> <span class="-no-outline">A</span><span class="-no-outline">S</span><span class="-no-outline">E</span></h6><p class="color-addiction-paragraph paragraph">Formatting the database was another challenging aspect of this project. We wanted to make our database scalable so that we wouldn't need to make major changes to it when we expanded our game. To do that, I simplified the table layouts by making one table specifically for decoy colors, and one table for solution colors. The columns of the table consisted of the level number, color itself, and it's ID. Doing this in this simplified layout allows us to add more than two of each type of color for future levels without requiring us to remake our table. </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class=" no-color tonely-project project">
+            <h3 class="project-title overlapped title black"><span class="">T</span><span class="">O</span><span class="">N</span><span class="">E</span><span class="">L</span><span class="">Y</span></h3>
+            <div class="project-content">
+                <div class="demo sticky">
+                    <div class="demo-content">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MfM25lVUyuU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="explanation">
+                    <div class="explanation-text">
+                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/achoi2/Tweet-Sentiment-Analysis" target="_blank">Github Repo</a><a class="-no-outline" href="https://trello.com/b/OwETMJdr/tweet-sentiment-analysis" target="_blank">Trello Board</a></p>
+                        <p class="tonely-paragraph paragraph ">TONELY is a web application designed to analyze tone percentages of draft tweets so that companies can establish a consistent tone amongst all customer service representatives. It also provides an approval service so that tweets may not be submitted to Twitter unless they have been approved by a second member of the team.</p>
+                        <p class="tonely-paragraph paragraph">I was personally tasked with obtaining the Watson API data, modal functionality, and all of the CSS styling.</p>
+                        <h6 class="overlapped project-subheader"><span class="no-outline">S</span><span class="no-outline">T</span><span class="no-outline">Y</span><span class="no-outline">L</span><span class="no-outline">I</span><span class="no-outline">N</span><span class="no-outline">G</span></h6><p class="tonely-paragraph paragraph">One of the biggest challenges facing the styling was creating harmonious tones while also maintaining contrast. To do that, the majority of the colors are varying opacities of the same tone. This creates cohesion while also adding dimension to each layer of the site.</p>
+                        <h6 class="overlapped project-subheader"><span class="no-outline">M</span><span class="no-outline">O</span><span class="no-outline">D</span><span class="no-outline">A</span><span class="no-outline">L</span> <span class="no-outline">F</span><span class="no-outline">U</span><span class="no-outline">N</span><span class="no-outline">C</span><span class="no-outline">T</span><span class="no-outline">I</span><span class="no-outline">O</span><span class="no-outline">N</span><span class="no-outline">A</span><span class="no-outline">L</span><span class="no-outline">A</span><span class="no-outline">L</span><span class="no-outline">I</span><span class="no-outline">T</span><span class="no-outline">Y</span></h6><p class="tonely-paragraph paragraph">The most difficult function of the modal was the copy function. In order to automatically copy something from a page via a button, you must copy from an input box. This did not fit the styling or spacing of our modal, and for security reasons Google Chrome does not let you copy a hidden item. To work around this, the copy function first creates the input box, populates it and copies that text, and then destroys the input box. This happens so quickly that it is essentially invisible to the end user.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="no-color chattrbox-project project">
+            <h3 class="project-title overlapped title black"><span class="">C</span><span class="">H</span><span class="">A</span><span class="">T</span><span class="">T</span><span class="">R</span><span class="">B</span><span class="">O</span><span class="">X</h3>
+            <div class="project-content">
+                <div class="demo sticky">
+                    <div class="demo-content">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/6ma8eTrXKYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div> 
+                </div>
+                <div class="explanation">
+                    <div class="explanation-text">
+                        <p class="tonely-paragraph paragraph"><a class="-no-outline" href="https://github.com/smuntean/chat-page" target="_blank">Github Repo</a>
+                        <!-- <a class="-no-outline" href="https://smuntean.github.io/insult-generator/" target="_blank">Live Demo</a> -->
+                        </p>
+                        <p class="chattrbox-paragraph paragraph">CHATTRBOX is a web chat application that uses web sockets to update open browser windows in real time. One of the biggest challenges faced in this project was communicating with the backend and frontend simultaneously. </p>
+                        <h6 class="overlapped project-subheader"><span class="-no-outline">W</span><span class="-no-outline">E</span><span class="-no-outline">B</span> <span class="-no-outline">S</span><span class="-no-outline">O</span><span class="-no-outline">C</span><span class="-no-outline">K</span><span class="-no-outline">E</span><span class="-no-outline">T</span><span class="-no-outline">S</span></h6>
+                        <p class="chattrbox-paragraph paragraph">The main purpose of this project was to explore web sockets in a functional app. I structured my code so that the server side was as simple as possible, making scaling easier when the app gets larger. In the future I would like to incorporate routing into this project to make my code even more efficient. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="no-color mailchimp-project project">
+            <h3 class="project-title overlapped title black"><span class="">M</span><span class="">A</span><span class="">I</span><span class="">L</span><span class="">C</span><span class="">H</span><span class="">I</span><span class="">M</span><span class="">P</span> <span class="">B</span><span class="">A</span><span class="">N</span><span class="">A</span><span class="">N</span><span class="">A</span> <span class="">-</span> <span class="">Z</span><span class="">A</span></h3>
+            <div class="project-content">
+                <div class="demo sticky">
+                    <div class="demo-content">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/-czW_vC37hQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div> 
+                </div>
+                <div class="explanation">
+                    <div class="explanation-text">
+                        <p class="tonely-paragraph paragraph"><a class="demo-link" href="https://github.com/smuntean/insult-generator" target="_blank">Github Repo</a><a class="demo-link" href="https://smuntean.github.io/insult-generator/" target="_blank">Live Demo</a></p>
+                        <p class="mailchimp-paragraph paragraph">MAILCHIMP BANANA-ZA is an interactive JavaScript and jQuery game whose sole purpose is to annoy the user. As the user clicks the chimp, the prompt on the screen cycles through new taunts. As the game progresses, the chimp starts moving around the screen and eventually decoy chimps start appearing as well. The game cycles indefinitely, eventually getting harder and harder the longer the user palys.</p>
+                        <h6 class="overlapped project-subheader"><span class="no-outline">S</span><span class="no-outline">T</span><span class="no-outline">Y</span><span class="no-outline">L</span><span class="no-outline">I</span><span class="no-outline">N</span><span class="no-outline">G</span></h6>
+                        <p class="mailchimp-paragraph paragraph">Initially, the bananas were intended to be a part of the main portions border. However, though the border-image repeat did place the images in the corners of the body, the CSS animate feature does not work on borders. To get around this, the bananas are all images placed in divs, that were fit to the corners using flexbox. I used @keyframes animate to have them spin continuously.</p>
+                        <h6 class="overlapped project-subheader"><span class="no-outline">A</span><span class="no-outline">N</span><span class="no-outline">I</span><span class="no-outline">M</span><span class="no-outline">A</span><span class="no-outline">T</span><span class="no-outline">I</span><span class="no-outline">O</span><span class="no-outline">N</span></h6><p class="mailchimp-paragraph paragraph">To animate the chimps, I used Math.random to determine a new x and y for each button, careful to limit the range of the coordinates to the view width/height - the chimp's width/height. After determining the new positions, I used jQuery's animate function to animate the chimps from their current position to their calculated new position.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="no-color crafty-project project">
+            <h3 class="project-title overlapped title black"><span class="">C</span><span class="">R</span><span class="">A</span><span class="">F</span><span class="">T</span><span class="">Y</span> <span class="">-</span> <span class="">G</span><span class="">R</span><span class="">A</span><span class="">M</span></h3>
+            <div class="project-content">
+                <div class="demo sticky">
+                    <div class="demo-content">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ybju1ew4FI0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="explanation">
+                    <div class="explanation-text">
+                        <p class="crafty-paragraph paragraph"><a class="demo-link" href="https://github.com/smuntean/photo-gallery" target="_blank">Github Repo</a><a class="demo-link" href="https://smuntean.github.io/photo-gallery/" target="_blank">Live Demo</a></p>
+                        <p class="crafy-paragraph paragraph">CRAFTY-GRAM is a photo gallery that is meant to be a spin on Instagram. It uses Flexbox to determine the layout of the page and JavaScript to populate the page and modal, so no images are hardcoded in the HTML. All images used are of my personal craft projects.</p>
+                        <h6 class="overlapped project-subheader"><span class="-no-outline">S</span><span class="-no-outline">T</span><span class="-no-outline">Y</span><span class="-no-outline">L</span><span class="-no-outline">I</span><span class="-no-outline">N</span><span class="-no-outline">G</span></h6><p class="crafty-paragraph paragraph">The styling on this site aptly shows my design pickiness. I was careful to choose the perfect hover gradient on the images, so that the image themselves were not masked on the hover by too dark of a color while also giving a halo-effect. When this halo-effect is coupled with the box shadow behind the images, it creates a three-dimensional floating effect.</p>
+                        <h6 class="overlapped project-subheader"><span class="-no-outline">M</span><span class="-no-outline">O</span><span class="-no-outline">D</span><span class="-no-outline">A</span><span class="-no-outline">L</span> <span class="-no-outline">F</span><span class="-no-outline">U</span><span class="-no-outline">N</span><span class="-no-outline">C</span><span class="-no-outline">T</span><span class="-no-outline">I</span><span class="-no-outline">O</span><span class="-no-outline">N</span><span class="-no-outline">A</span><span class="-no-outline">L</span><span class="-no-outline">A</span><span class="-no-outline">L</span><span class="-no-outline">I</span><span class="-no-outline">T</span><span class="-no-outline">Y</span></h6><p class="crafty-paragraph paragraph">The modal was by far the most challenging aspect of this site. I hardcoded a basic, unpopulated modal into the HTML which is initially set to hidden. When an image is clicked on, it populates the modal, and the modal's display attribute is set to "flex." I utilized closures to ensure that the modal is populated with the image that is clicked on without having to use an ID attribute on each image. To handle each event (be it keyboard or mouseclicks), I used multiple, specifialized functions to make the code clear and easy to follow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="no-color bubble-project project">
+            <h3 class="project-title overlapped title black"><span class="">B</span><span class="">U</span><span class="">B</span><span class="">B</span><span class="">L</span><span class="">E</span> <span class="">M</span> <span class="">A</span><span class="">N</span><span class="">I</span><span class="">A</span></h3>
+            <div class="project-content">
+                <div class="demo sticky">
+                    <div class="demo-content">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/1aFpFphUW84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="explanation">
+                    <div class="explanation-text">
+                        <p class="bubble-paragraph paragraph"><a class="demo-link" href="https://github.com/smuntean/bubble-game" target="_blank">Github Repo</a></p>
+                        <p class="crafy-paragraph paragraph">BUBBLEMANIA is a game built with Python's Pygame library, in which you try to collect points by colliding with point sprites while avoiding attack sprites. Some of the biggest challenges I faced were dealing with classes and collisions. </p>
+                        <h6 class="overlapped project-subheader"><span class="no-outline">C</span><span class="no-outline">L</span><span class="no-outline">A</span><span class="no-outline">S</span><span class="no-outline">S</span><span class="no-outline">E</span><span class="no-outline">S</span></h6><p class="bubble-paragraph paragraph">The most challenging part of this game was the class aspect. Since there were so many different pieces that had similar functionality, I made a sprite class that handled things like collisions and ensuring pieces didn't move off of the screen. I developed classes that took a multiple parameters so that I could limit the amount of global variables in the entire program. </p>
+                        <h6 class="overlapped project-subheader"><span class="no-outline">C</span><span class="no-outline">O</span><span class="no-outline">L</span><span class="no-outline">L</span><span class="no-outline">I</span> <span class="no-outline">S</span><span class="no-outline">I</span><span class="no-outline">O</span><span class="no-outline">N</span><span class="no-outline">S</span></h6><p class="bubble-paragraph paragraph">Collisions were another challenge in this game. Pygame has a built in collision method for sprites, but adapting that collision method to work for multiple types of events (negative scores and positive scores) required including conditional statements that pointed to smaller, separate functions. This limited the complexity of the collision function itself as much as possible while still making the collision function as reusable as possible. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="no-color skills">
+        <div class="skills-header">
+            <h1 class="overlapped title"><span class="">S</span><span class="">K</span><span class="">I</span><span class="">L</span><span class="">L</span><span class="">S</span></h1>
+        </div>
+        <div class="no-color skills-list">
+            <div class="no-color skills-box learned">
+                <h6 class="overlapped project-subheader"><span class="-no-outline">L</span><span class="-no-outline">E</span><span class="-no-outline">A</span><span class="-no-outline">R</span><span class="-no-outline">N</span><span class="-no-outline">E</span><span class="-no-outline">D</span></h6>
+                <div class="skills-paragraph">
+                    <span class="language">JavaScript, </span><span class="language">jQuery, </span><span class="language">Python, </span><span class="language">Node.js, </span><span class="language">Express.js, </span><span class="language">PostgreSQL, </span><span class="language">Amazon Web Services, </span>and <span class="language">REST APIs</span>
+                </div>
+            </div>
+            <div class="no-color skills-box learning">
+                <h6 class="overlapped project-subheader"><span class="-no-outline">L</span><span class="-no-outline">E</span><span class="-no-outline">A</span><span class="-no-outline">R</span><span class="-no-outline">N</span><span class="-no-outline">I</span><span class="-no-outline">N</span><span class="-no-outline">G</span></h6>
+                <div class="skills-paragraph">
+                    <span class="language">React, </span><span class="language">Sass, </span>and <span class="language">Redux</span>
+                </div>
+            </div>   
+        </div>     
+    </div>
+    <div class="no-color footer">
+        <h1 class="no-color overlapped title footer"><span class="">S</span><span class="">A</span><span class="">R</span><span class="">A</span> <span class="">M</span><span class="">U</span><span class="">N</span><span class="">T</span><span class="">E</span><span class="">A</span><span class="">N</span></h1>
+        <div class="no-color black-link contact-footer black-link">
+            <div class="phone footer-link">
+                (404)-345-4284
+            </div>
+            <div class="email black-link footer-link link">
+                <a class="footer-link link" href="mailto:munteansr@gmail.com" target="_blank">munteansr@gmail.com</a>
+            </div>
+            <div class="github">
+                <a class="footer-link link black-link" href="https://github.com/smuntean" target="_blank"><img class="logo"src="media/white-github-logo.png" /></a>
+            </div>
+            <div class="linkedin">
+                <a class="footer-link link black-link" href="https://www.linkedin.com/in/sara-muntean/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                    <!-- <img class="logo" src="media/white-linkedin-logo.jpg" /> -->
+                </a>
+            </div>  
+        </div>  
+    </div>
+</body>
+</html>

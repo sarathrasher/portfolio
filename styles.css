@@ -354,6 +354,7 @@ body {
         width: 50%;
     }
 }
+
 @media (min-width: 1024px) {
     .project {
         margin: 1em 10em 1em 10em;
@@ -368,3 +369,36 @@ body {
     }
 }
 
+.no-color {
+    border: none;
+    background-color: white;
+}
+
+.black-link {
+    color: black;
+}
+
+.black-link:hover {
+    color: black;
+}
+
+.header-text {
+    font-size: 10em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.no-contrast-blue {
+    background-color: var(--blue-color);
+    border: none;
+}
+
+.no-contrast-red {
+    background-color: var(--red-color);
+    border: none;
+}
+
+.no-contrast-yellow {
+    background-color: var(--yellow-color);
+    border: none;
+}
