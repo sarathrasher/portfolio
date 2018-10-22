@@ -218,6 +218,10 @@ body {
 
 }
 
+.table-talk-project {
+    border: 20px solid var(--red-color);
+}
+
 .color-addiction-project {
     border: 20px solid var(--red-color);
 }
