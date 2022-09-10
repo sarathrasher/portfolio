@@ -3,7 +3,7 @@ Pts.namespace( window );
 var styleHeader = function () {
      // Create HTML space and form
     Pts.namespace( this );
-    var space = new HTMLSpace("#pt").setup({bgcolor: "#36f", resize: true });
+    var space = new HTMLSpace("#pt").setup({bgcolor: "#f6cdfa", resize: true });
     var form = space.getForm();
 
     space.add(
@@ -19,14 +19,14 @@ var styleHeader = function () {
         let rect2 = Rectangle.fromTopLeft( [pointer.x, 0], space.size );
 
         // Draw first rectangle(s)
-        form.strokeOnly("#3355ff", 1).fillText("#FFFF2F").cls("rect1").rect( rect1 );
-        form.strokeOnly("#3355ff", 1).fillText("#fff").cls("rect1a").rect( rect1Alt );
+        form.strokeOnly("#eeb9f0", 1).fillText("#f0ff6e").cls("rect1").rect( rect1 );
+        form.strokeOnly("#eeb9f0", 1).fillText("#fff").cls("rect1a").rect( rect1Alt );
         document.querySelector(".rect1").textContent = "sara";
         document.querySelector(".rect1a").textContent = "sara";
 
         // Draw second rectange
-        form.fillOnly("#ff3355").fillText("#fff").cls("rect2").rect( rect2 );
-        document.querySelector(".rect2").textContent = "muntean";
+        form.fillOnly("#3396ff").fillText("#fff").cls("rect2").rect( rect2 );
+        document.querySelector(".rect2").textContent = "thrasher";
         }
     );
 

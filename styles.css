@@ -1,7 +1,8 @@
 :root {
-    --yellow-color: #FFFF2F;
-    --red-color:#ff3355;
-    --blue-color: #3355ff;
+    --yellow-color: #f0ff6e;
+    --lavendar-color:#f6cdfa;
+    --hotpink-color: #fa4db8;
+    --blue-color: #3396ff;
 }
 
 html, body {
@@ -9,6 +10,7 @@ html, body {
     height: 100%;
     font-size: 17px;
     font-family: Josefin Sans;
+    /* font-family: Karma; */
 } 
 
 body {
@@ -18,55 +20,20 @@ body {
 }
 
 .overlapped {
-    letter-spacing: -0.25em;
+    /* letter-spacing: -0.25em; */
     font-size: 5em;
     font-weight: normal;
     word-spacing: 0.15em;
 }
 
-.blue-letter {
-    text-shadow:
-        -1px -1px 0 var(--blue-color),
-        1px -1px 0 var(--blue-color),
-        -1px 1px 0 var(--blue-color),
-        1px 1px 0 var(--blue-color);
-}
-.blue-letter:hover {
-    color: #3355ff;
-}
-
-.yellow-letter {
-    text-shadow:
-        -1px -1px 0 var(--yellow-color),
-        1px -1px 0 var(--yellow-color),
-        -1px 1px 0 var(--yellow-color),
-        1px 1px 0 var(--yellow-color);
-}
-.yellow-letter:hover {
-    color: #FFFF2F;
-}
-.red-letter {
-    text-shadow:
-        -1px -1px 0 var(--red-color),
-        1px -1px 0 var(--red-color),
-        -1px 1px 0 var(--red-color),
-        1px 1px 0 var(--red-color);
-}
-.red-letter:hover {
-    color: #ff3355;
-}
-
-.yellow {
-    background-color: #FFFF2F;
-}
 .pts-rect { 
     font-size: 25vw; 
-    letter-spacing: -0.1em;
+    letter-spacing: -0.025em;
     line-height: 25vh; 
     overflow: hidden;  
 } 
 .rect2 { 
-    opacity: 0.9; 
+    opacity: 0.75; 
 } 
 .rect1a { 
     border-bottom-color: #fff !important; 
@@ -84,32 +51,20 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    background-color: var(--blue-color);
+    opacity: 0.75;
 }
 .bio {
-    color: black;
-    border: 30px solid #ff3355;
+    color: white;
     padding: 2em 0em 2em 0em;
 }
 .subheader {
     font-size: 1.5em;
     text-align: center;
 }
-.language {
-    font-size: 0.8em;
-    color: black;
-}
-
-.blue-letter-no-outline:hover {
-    color: var(--blue-color);
-}
 
 .icon {
     font-size: 1.5em;
-}
-
-.language:hover {
-    color: #3355ff;
-    font-weight: bold;
 }
 .title {
     font-size: 4.1em;
@@ -123,73 +78,26 @@ body {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    border: 30px solid #3355ff;
-    color: black;
+    color: white;
     padding: 2em 0em 2em 0em;
 }
 .link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .link:visited {
-    color: black;
+    color: var(--hotpink-color);
 }
 .link:hover {
-    color: #FFFF2F;
+    color: var(--yellow-color);
     font-weight: bold;
 }
 .pointer {
     cursor: pointer;
 }
 
-.red {
-    background-color: #ff3355;
-    width: 100%;
-    text-align: center;
-    color: white;
-    padding: 0.15em 0;
-}
-
-.title-letter:hover {
-    color: #3355ff;
-}
-
 .projects {
     border: 30px solid var(--yellow-color);
-}
-
-.skills {
-    border: 30px solid var(--red-color);
-    display: flex;
-    flex-direction: column;
-}
-
-.skills-list {
-    display: flex;
-}
-
-.skills-box {
-    width: 50%;
-    margin: 0.5em;
-}
-
-.learned {
-    border: 10px solid var(--blue-color);
-}
-
-.learning {
-    border: 10px solid var(--blue-color);
-}
-
-.skills-paragraph {
-    text-align: center;
-    padding: 1em;
-}
-
-.skills-row {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
 }
 
 .paragraph {
@@ -201,48 +109,6 @@ body {
 
 }
 
-.red-letter-no-outline:hover {
-    color: var(--red-color);
-}
-
-.project-title {
-    font-size: 3.5em;
-}
-.project {
-    display: flex;
-    flex-direction: column;
-    border: 20px solid #3355ff;
-    color: black;
-    background-color: white;
-    margin: 1em 2em 1em 2em;
-
-}
-
-.table-talk-project {
-    border: 20px solid var(--red-color);
-}
-
-.color-addiction-project {
-    border: 20px solid var(--red-color);
-}
-
-.chattrbox-project {
-    border: 20px solid var(--red-color);
-}
-
-.mailchimp-project {
-    border: 20px solid var(--blue-color);
-}
-
-.crafty-project {
-    border: 20px solid var(--red-color);
-}
-
-.project-subheader {
-    font-size: 2em;
-    margin: 0.15em;
-    text-align: center;
-}
 
 .explanation {
     width: 100%;
@@ -263,16 +129,6 @@ body {
     position: sticky;
     top: 0;
 } 
-
-.demo-link {
-    color: black;
-
-}
-
-
-.demo-link:hover {
-    color: #ff3355;
-}
 
 .footer {
     font-size: 1.5em;
@@ -298,7 +154,7 @@ body {
 }
 
 .footer {
-    background-color: var(--blue-color);
+    background-color: var(--lavendar-color);
     color: white;
     font-size: 1.75em;
 }
@@ -314,14 +170,14 @@ body {
     color: var(--yellow-color);
 }
 .bio-footer {
-    background-color: #ff3355;
+    background-color: var(--lavendar-color);
     color: white;
     width: 100%;
     padding: 2em 0em 2em 0em;
 }
 
 .footer-language:hover {
-    color: #FFFF2F;
+    color: var(--yellow-color);
 }
 
 .no-color {
@@ -341,21 +197,6 @@ body {
     font-size: 10em;
     text-align: center;
     box-sizing: border-box;
-}
-
-.no-contrast-blue {
-    background-color: var(--blue-color);
-    border: none;
-}
-
-.no-contrast-red {
-    background-color: var(--red-color);
-    border: none;
-}
-
-.no-contrast-yellow {
-    background-color: var(--yellow-color);
-    border: none;
 }
 
 @media (min-width: 768px) {
